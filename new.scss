@@ -1,0 +1,71 @@
+.container{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(186, 200, 216);
+    flex-direction: column;
+    
+
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 65px;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  #3b5998;
+    color: white;
+    .logo{
+        font-size: 30px;
+        font-style: normal;
+    }
+     .navform{
+         font-size: 13px;
+         font-family: Arial, Helvetica, sans-serif;
+         button{
+            background-color: blue;
+            color: white;
+            
+        }
+     }
+
+}
+.content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+    height: 80%;
+
+    .bodyform > input{
+        margin: 3px;
+        padding: 5px;
+
+
+    }
+    button{
+        background-color: #3b5998;
+        color: white;
+        padding: 4px 6px;
+    }
+    .left{
+        width: 40%;
+        padding-right: 100px;
+        padding-left: 80px;
+        margin-bottom: 140px;
+    }
+    .right{
+        width: 50%;
+    }
+
+
+}
+
+
+
+
+
+
+

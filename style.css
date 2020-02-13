@@ -1,0 +1,97 @@
+.a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.a .b {
+  background-color: #c766c7;
+  width: 25%;
+}
+
+.a .b .ho {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+.a .b .ho div:hover {
+  background-color: pink;
+}
+
+.a .bc {
+  width: 75%;
+}
+
+.a .bc .c {
+  background-color: green;
+  width: 100%;
+  height: 25%;
+}
+
+.a .bc .d {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: white;
+  height: 75%;
+}
+
+.a .bc .d .e {
+  width: 75%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.a .bc .d .e .g {
+  height: 75%;
+  background-color: white;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.a .bc .d .e .g form {
+  background-color: #acac56;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.a .bc .d .e .g form input {
+  padding: 5px;
+  margin: 3px;
+}
+
+.a .bc .d .e .g form button {
+  background-color: lightskyblue;
+  color: white;
+  margin-left: 60px;
+  margin-top: 5px;
+}
+
+.a .bc .d .e .h {
+  height: 25%;
+  background-color: #28799e;
+}
+
+.a .bc .d .f {
+  width: 25%;
+  background-color: orange;
+}
+/*# sourceMappingURL=style.css.map */

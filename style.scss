@@ -1,0 +1,77 @@
+.a{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+.b{
+    background-color: rgb(199, 102, 199);
+    width: 25%;
+    .ho{
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+        margin-top: 40px;
+        div{
+        &:hover{
+            background-color: pink
+        }
+    }
+
+
+        
+    }
+}
+.bc{
+    width: 75%;
+    .c{
+        background-color: green;
+        width: 100%;
+        height: 25%;
+
+    }
+    .d{
+        display: flex;
+        width: 100%;
+        background-color: white;
+        height: 75%;
+        .e{
+            width: 75%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            .g{
+                height: 75%;
+                background-color: white;
+                
+                align-self: center;
+                form{
+                    background-color: rgb(172, 172, 86);
+                    padding: 15px;
+                    border-radius: 4px;
+                    margin-top: 8px;
+
+                
+                input{
+                    padding: 5px;
+                    margin: 3px;
+                }
+                button{
+                    background-color: lightskyblue;
+                    color: white;
+                    margin-left: 60px;
+                    margin-top: 5px;
+                }
+            }
+        }
+            .h{
+                height: 25%;
+                background-color: rgb(40, 121, 158);
+            }
+        }
+        .f{
+            width: 25%;
+            background-color: orange;
+        }
+
+    }
+}
+}
